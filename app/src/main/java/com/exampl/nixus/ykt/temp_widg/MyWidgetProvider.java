@@ -41,7 +41,7 @@ public class MyWidgetProvider extends AppWidgetProvider {
             String temp = in.getInet("https://yabesco.ru/getTemp1.php");
             String[] res;
             res = temp.split(":");
-            if (!res[1].startsWith("-") || !res[1].startsWith("0")) {
+            if (!res[1].startsWith("-") && !res[1].startsWith("0")) {
                 res[1] = "+" + res[1];
             };
             String celsius = " °C";
