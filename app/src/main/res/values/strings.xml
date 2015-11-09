@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YarTemp2</string>
+    <string name="hello_world">Yo world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="widget_text">Yaroslavl Weather</string>
+    <string name="appwidget_text">We learn java</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_hello_android">HelloAndroid</string>
+
+</resources>
